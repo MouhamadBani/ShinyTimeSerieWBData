@@ -1,1 +1,5 @@
 # ShinyTimeSerieWBData
+
+This R Shiny app is designed to analyze World Bank data by providing interactive visualizations and insights into global trends, country comparisons, and correlations between indicators. The data, sourced from a CSV file (WBData.csv), includes country names, years, and numeric indicators. Built with shinydashboard, the app is structured into four tabs: Data Overview, Country Comparison, Time Series, and Correlation Analysis.
+
+The Data Overview tab displays key summaries, including the total number of countries, year range, and indicators, alongside histograms for indicator distributions. The Country Comparison tab allows users to select multiple countries and an indicator to generate line plots comparing trends over time. The Time Series tab visualizes global trends for a chosen indicator, with an optional log scale for Y-axis adjustment. The Correlation Analysis tab presents a heatmap of correlations among numeric indicators, using a color gradient to represent correlation strength and direction
